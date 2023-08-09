@@ -2,15 +2,15 @@
 import "./style.css";
 
 function generarExcusa() {
-  let who = ["The dog", "My grandma", "His turtle", "My bird"];
-  let action = ["ate", "peed", "crushed", "broke"];
-  let what = ["my homework", "the keys", "the car"];
+  let who = ["El perro", "Mi abuela", "Su tortuga", "Mi pájaro"];
+  let action = ["se comió", "orinó", "aplastó", "rompió"];
+  let what = ["mi tarea", "las llaves", "el coche"];
   let when = [
-    "before the class",
-    "right on time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "antes de la clase",
+    "justo a tiempo",
+    "cuando terminé",
+    "durante mi almuerzo",
+    "mientras estaba rezando"
   ];
 
   let quien = who[Math.floor(Math.random() * who.length)];
