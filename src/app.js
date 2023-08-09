@@ -20,5 +20,9 @@ window.onload = function() {
   let cuando = when[Math.floor(Math.random() * when.length)];
   let excusa = quien + " " + accion + " " + " " + que + " " + cuando;
 
-  document.querySelector("#excuse").innerHTML = excusa;
+  document
+    .querySelector("#generate-excuse-btn")
+    .addEventListener("click", function() {
+      alert("Excusa generada: " + excusa);
+    });
 };
