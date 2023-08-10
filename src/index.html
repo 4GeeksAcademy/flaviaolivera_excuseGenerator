@@ -150,7 +150,29 @@
         aria-labelledby="nav-contact-tab"
         tabindex="0"
       >
-        agregar formulario de contacto
+        <div class="container d-flex justify-content-center">
+          <form class="row col-6 g-3">
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label"
+                >¿En qué te puedo ayudar?</label
+              >
+              <textarea
+                type="text"
+                class="form-control"
+                id="message"
+                rows="4"
+              ></textarea>
+              <small class="form-text text-muted ">Sin excusas.</small>
+            </div>
+            <div class="col-12 d-flex justify-content-end">
+              <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <script
