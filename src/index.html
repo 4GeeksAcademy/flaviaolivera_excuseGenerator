@@ -1,29 +1,162 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Y por qué no?</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.icon-icons.com/icons2/2150/PNG/512/emoji_smiley_sticker_emo_fun_funny_icon_132665.png"
+    />
+    <style>
+      #tituloJomo {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      #textoJomo {
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <nav>
+      <div
+        class="nav nav-tabs d-flex justify-content-center mb-2"
+        id="nav-tab"
+        role="tablist"
+      >
+        <button
+          class="nav-link active text-body-tertiary"
+          id="nav-home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-home"
+          type="button"
+          role="tab"
+          aria-controls="nav-home"
+          aria-selected="true"
+        >
+          Home
+        </button>
+        <button
+          class="nav-link text-body-tertiary"
+          id="nav-excusa-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-excusa"
+          type="button"
+          role="tab"
+          aria-controls="nav-excusa"
+          aria-selected="false"
+        >
+          Excusa
+        </button>
+        <button
+          class="nav-link text-body-tertiary"
+          id="nav-contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-contact"
+          type="button"
+          role="tab"
+          aria-controls="nav-contact"
+          aria-selected="false"
+        >
+          Contacto
+        </button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div
+        class="tab-pane fade show active"
+        id="nav-home"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+        tabindex="0"
+      >
+        <div>
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/portadajomo-1560271924.jpg?resize=2048:*"
+            class="w-100"
+            alt="Chica disfrutando el aire"
+          />
+          <div class="container">
+            <div id="tituloJomo" class="fs-2 text-center mt-4">
+              Decir adiós al FOMO para dar la bienvenida al JOMO,<br />
+              la tendencia que te hará ser un poco más feliz.
+            </div>
+            <div id="textoJomo" class="fw-lighter ms-5 me-5 mt-3">
+              Este 'miedo' conocido como FOMO (Fear Of Missing Out), en palabras
+              de la psicóloga Judith Viudes viene a significar "el tener que
+              decir sí a todo lo que surja aunque no apetezca y mostrar al mundo
+              lo 'interesante' que puede llegar a ser nuestra vida en
+              comparación con la de los demás. Es esconderse detrás de una
+              fachada repleta de selfies en fiestas, viajes, rodeados de amigos,
+              comidas sanas y ricas, triunfos académicos o deportivos, un amor
+              romántico y perfecto, etc, ". De esta manera provoca que vivamos
+              una realidad en la que en el fondo no apetece en absoluto
+              experimentar todo aquello y lo hacemos por el hecho de querer
+              agradar al resto y sentirnos incluidos dentro de la sociedad. ¿Te
+              suena, verdad? <br /><br />Es así como surge el término JOMO
+              (<strong>Joy Of Missing Out</strong>), que significa el 'placer de
+              perderse las cosas'. consiste en decir 'no' a aquellos planes que
+              no te apetezcan y decir 'sí' a aquellos que los haces porque de
+              verdad quieres, sin tener en cuenta las apariencias o la
+              integración dentro de la sociedad (virtual o real).<br /><br />
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <div class="fs-6 fst-italic">
+                    "El JOMO es poder decir tranquilamente que no cuando no te
+                    apetece el plan que te proponen, y además, sentirse a gusto
+                    con esa decisión. Es un alivio a nivel psicológico, es un
+                    respiro que llega casi como un détox emocional, es
+                    autocuestionarse y mirar hacia dentro en vez de hacia fuera,
+                    '¿por qué tengo que tener la necesidad de decir que sí a
+                    algo cuándo no me apetece? A caso, ¿tengo que experimentarlo
+                    todo? ¿soy menos feliz por disfrutar de lo que me apetece y
+                    no de lo que otros esperan?' La respuesta es NO".
+                  </div>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Judith Viudes para
+                  <cite title="Source Title">Revista Bazaar</cite>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="p-4 text-center">
+              Made with ❤️ by
+              <a href="https://www.linkedin.com/in/flavia-fernandezolivera/"
+                >Flavia</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-excusa"
+        role="tabpanel"
+        aria-labelledby="nav-excusa-tab"
+        tabindex="0"
+      >
+        agregar generador de excusa
+      </div>
+      <div
+        class="tab-pane fade"
+        id="nav-contact"
+        role="tabpanel"
+        aria-labelledby="nav-contact-tab"
+        tabindex="0"
+      >
+        agregar formulario de contacto
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
