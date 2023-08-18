@@ -14,7 +14,7 @@ function generarExcusa() {
     "mientras estaba rezando"
   ];
 
-  let quien = who[Math.floor(Math.random() * who.length)]; //Muy bien usar el length, yo puse numero directo jaja, aprendo de aqui.
+  let quien = who[Math.floor(Math.random() * who.length)]; //Muy bien usar el length, yo puse numero directo jaj, aprendo de aqui.
   let accion = action[Math.floor(Math.random() * action.length)];
   let que = what[Math.floor(Math.random() * what.length)];
   let cuando = when[Math.floor(Math.random() * when.length)];
