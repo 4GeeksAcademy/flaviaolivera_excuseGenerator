@@ -1,6 +1,7 @@
 /* eslint-disable */
 import "./style.css";
-
+// Me ha parecido muy creativo el proyecto e integrando todos los contenidos,
+// lo que pudiera aportar es halagos al trabajo, me ha encantado. Felicidades. Gracias, aprendo mucho contigo.
 function generarExcusa() {
   let who = ["El perro", "Mi abuela", "Su tortuga", "Mi pájaro"];
   let action = ["se comió", "orinó", "aplastó", "rompió"];
@@ -13,7 +14,7 @@ function generarExcusa() {
     "mientras estaba rezando"
   ];
 
-  let quien = who[Math.floor(Math.random() * who.length)];
+  let quien = who[Math.floor(Math.random() * who.length)]; //Muy bien usar el length, yo puse numero directo jaja, aprendo de aqui.
   let accion = action[Math.floor(Math.random() * action.length)];
   let que = what[Math.floor(Math.random() * what.length)];
   let cuando = when[Math.floor(Math.random() * when.length)];
